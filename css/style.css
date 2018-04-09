@@ -1,0 +1,121 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Dancing Script', cursive;
+
+}
+.bg{
+	/* The image used */
+	background-image: url("../img/bg.jpg");
+	/* Full height */
+	height: 95%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.bg2{
+	/* The image used */
+	background-image: url("../img/bg2.jpg");
+	/* Full height */
+	height: 120%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.text{
+	
+	/*text-align: center;*/
+	color: #ffffff;
+	font-family: arial;
+	
+}
+
+.nama{
+	text-align: center;
+	font-size: 60px;
+	color: rgba(0, 0, 0, 0.9) ;
+	/*text-transform: uppercase;*/
+	/*font-weight: 200;*/
+}
+
+
+.tabel{
+	text-align: center;
+	
+	/*text-transform: uppercase;*/
+	/*font-weight: 200;*/
+}
+.tabel:hover{
+	text-align: center;
+	background-color: rgba(255, 225, 225, 0.2);
+	/*text-transform: uppercase;*/
+	/*font-weight: 200;*/
+}
+
+.alamat{
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	font-family: arial;
+	
+}
+.poto{
+
+	margin: 0 auto;
+	padding: 5% 0 3% 0;
+	text-align: center;
+}
+
+.potomedsos{
+
+	margin: 0 auto;
+	padding: 5% 0 3% 0;
+	text-align: center;
+}
+
+.poto-grs{
+	max-height: 20rem;
+	max-width: 20rem;
+	border: .8rem solid rgba(255,255,255,.2)
+}
+.poto-grs:hover{
+	max-height: 20rem;
+	max-width: 20rem;
+	border: .8rem solid rgba(255,255,255,.2)
+	-webkit-transform: scale(1.10);
+  	transform: scale(1.10);
+
+}
+
+
+.poto-grs2{
+	max-height: 20rem;
+	max-width: 20rem;
+	border: 0.4rem solid rgba(255,255,255,.2)
+}
+
+.poto-grs2:hover{
+	max-height: 20rem;
+	max-width: 20rem;
+	border-radius: 90% !important;
+	border-color: tomato;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 0 5px 5px #FFFACD;
+	-webkit-transform: scale(1.10);
+  	transform: scale(1.10);
+
+}
+
+
+.poto-Lingkaran{
+	border-radius: 50% !important;
+}
+.poto-kotak{
+	border-radius: 20% !important;
+}
+
